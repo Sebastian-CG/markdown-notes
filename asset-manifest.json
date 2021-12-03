@@ -1,21 +1,27 @@
 {
   "files": {
-    "main.js": "/markdown-notes/static/js/main.7fafffdb.chunk.js",
-    "main.js.map": "/markdown-notes/static/js/main.7fafffdb.chunk.js.map",
-    "runtime-main.js": "/markdown-notes/static/js/runtime-main.84858f28.js",
-    "runtime-main.js.map": "/markdown-notes/static/js/runtime-main.84858f28.js.map",
-    "static/js/2.2d09db22.chunk.js": "/markdown-notes/static/js/2.2d09db22.chunk.js",
-    "static/js/2.2d09db22.chunk.js.map": "/markdown-notes/static/js/2.2d09db22.chunk.js.map",
-    "static/js/3.e6ebb53d.chunk.js": "/markdown-notes/static/js/3.e6ebb53d.chunk.js",
-    "static/js/3.e6ebb53d.chunk.js.map": "/markdown-notes/static/js/3.e6ebb53d.chunk.js.map",
+    "main.css": "/markdown-notes/static/css/main.ab16e25a.chunk.css",
+    "main.js": "/markdown-notes/static/js/main.14f65a34.chunk.js",
+    "main.js.map": "/markdown-notes/static/js/main.14f65a34.chunk.js.map",
+    "runtime-main.js": "/markdown-notes/static/js/runtime-main.5839d719.js",
+    "runtime-main.js.map": "/markdown-notes/static/js/runtime-main.5839d719.js.map",
+    "static/css/2.2536eb26.chunk.css": "/markdown-notes/static/css/2.2536eb26.chunk.css",
+    "static/js/2.77ef82f4.chunk.js": "/markdown-notes/static/js/2.77ef82f4.chunk.js",
+    "static/js/2.77ef82f4.chunk.js.map": "/markdown-notes/static/js/2.77ef82f4.chunk.js.map",
+    "static/js/3.f0cd3682.chunk.js": "/markdown-notes/static/js/3.f0cd3682.chunk.js",
+    "static/js/3.f0cd3682.chunk.js.map": "/markdown-notes/static/js/3.f0cd3682.chunk.js.map",
     "index.html": "/markdown-notes/index.html",
     "service-worker.js": "/markdown-notes/service-worker.js",
     "service-worker.js.map": "/markdown-notes/service-worker.js.map",
-    "static/js/2.2d09db22.chunk.js.LICENSE.txt": "/markdown-notes/static/js/2.2d09db22.chunk.js.LICENSE.txt"
+    "static/css/2.2536eb26.chunk.css.map": "/markdown-notes/static/css/2.2536eb26.chunk.css.map",
+    "static/css/main.ab16e25a.chunk.css.map": "/markdown-notes/static/css/main.ab16e25a.chunk.css.map",
+    "static/js/2.77ef82f4.chunk.js.LICENSE.txt": "/markdown-notes/static/js/2.77ef82f4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.84858f28.js",
-    "static/js/2.2d09db22.chunk.js",
-    "static/js/main.7fafffdb.chunk.js"
+    "static/js/runtime-main.5839d719.js",
+    "static/css/2.2536eb26.chunk.css",
+    "static/js/2.77ef82f4.chunk.js",
+    "static/css/main.ab16e25a.chunk.css",
+    "static/js/main.14f65a34.chunk.js"
   ]
 }
