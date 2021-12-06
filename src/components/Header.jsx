@@ -57,7 +57,7 @@ export default function Header({
 
   // Guarda el en la maquina local el contenido del editor en un archivo README.md o el nombre asignado.md
   const downloadMarkdown = () => {
-    const fileName = prompt("Enter file name") || "markdown";
+    const titleElement = document.getElementsByTagName("h1")[0].innerText;
 
     const archivo = new Blob([editorText], {
       type: "text/plain",
@@ -66,7 +66,7 @@ export default function Header({
     const a = document.createElement("a");
 
     a.href = url;
-    a.download = fileName.trim() + ".md";
+    a.download = titleElement.trim() + ".md";
     a.click();
     URL.revokeObjectURL(url);
   };
