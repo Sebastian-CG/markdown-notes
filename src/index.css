@@ -48,7 +48,25 @@ main {
 }
 
 .markdown-body pre {
+  position: relative;
   overflow: auto;
+}
+
+.markdown-body pre .copy-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0; 
+  padding: 10px;
+  background-color: #1e1e1e;
+  color: #fff;
+  border-radius: 0 0 0 5px;
+  transition: opacity 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.markdown-body pre .visible-copy-button {
+  opacity: 100%;
 }
 
 .markdown-body img {
