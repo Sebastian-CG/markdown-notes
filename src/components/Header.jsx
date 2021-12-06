@@ -1,4 +1,4 @@
-import { Fragment, useRef } from "react";
+import { Fragment, useContext, useRef } from "react";
 
 // Components
 import Button from "./Button";
@@ -10,16 +10,11 @@ import {
   BsFillCloudDownloadFill,
   BsCircleHalf,
 } from "react-icons/bs";
+import { SettingsContext } from "../Context/SettingsProvider";
 
-export default function Header({
-  editorText,
-  defaultGrid,
-  darkEditorTheme,
-  setEditorText,
-  setDefaultGrid,
-  setDarkEditorTheme,
-}) {
+export default function Header({ editorText, setEditorText }) {
   const refUploadFileInput = useRef(null);
+  const { changeEditorTheme, changeLayout } = useContext(SettingsContext);
 
   // Obtiene el contenido del archivo seleccionado
   const fileUpload = (e) => {
@@ -37,17 +32,6 @@ export default function Header({
     } else {
       alert("The File APIs are not fully supported in this browser.");
     }
-  };
-
-  // Cambia el estilo del de la gird
-  const changeGrid = () => {
-    setDefaultGrid(!defaultGrid);
-    window.location.reload();
-  };
-
-  // Cambia el tema del editor
-  const changeTheme = () => {
-    setDarkEditorTheme(!darkEditorTheme);
   };
 
   // Abre el explordador de archivos del sistema
@@ -86,12 +70,12 @@ export default function Header({
       />
 
       <header>
-        <Button onClick={changeGrid}>
+        <Button onClick={changeLayout}>
           <BsGrid1X2Fill />
           Change grid
         </Button>
 
-        <Button onClick={changeTheme}>
+        <Button onClick={changeEditorTheme}>
           <BsCircleHalf />
           Change Editor Theme
         </Button>

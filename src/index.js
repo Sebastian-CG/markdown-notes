@@ -4,7 +4,10 @@ import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import reportWebVitals from "./reportWebVitals";
 
 import App from "./App.jsx";
+
+// Styles
 import "./index.css";
+import "github-markdown-css/github-markdown-light.css";
 
 ReactDOM.render(
   <React.StrictMode>
